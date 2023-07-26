@@ -54,7 +54,7 @@ body{
 .third img{
     border-radius: 15px;
     margin: 20px;
-    width: 250px;
+    width: 400px;
     height: auto;
 }
 .third{
@@ -69,5 +69,17 @@ body{
 }
 .third.content{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.third.content.media{
+    display: flex;
+    flex-direction: column;
+    
+    width: 400px;
+}
+.third.content.media.one{
+    justify-content: start;
 }
