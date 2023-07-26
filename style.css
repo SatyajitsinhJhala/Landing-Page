@@ -23,7 +23,7 @@ body{
 
 .header a{
     font-size: medium;
-    color: #DF760B;
+    /* color: #DF760B; */
     padding-right: 8px;
 }
 .second{
@@ -49,4 +49,25 @@ body{
     background-color: #743C08;
     padding: 8px;
     font-size: medium;
+    border-radius: 5px;
+}
+.third img{
+    border-radius: 15px;
+    margin: 20px;
+    width: 250px;
+    height: auto;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    background-color: #F6B61E;
+    align-items: center;
+}
+.third.header{
+    font-size: larger;
+
+}
+.third.content{
+    display: flex;
+    justify-content: center;
 }
