@@ -81,5 +81,5 @@ body{
     width: 400px;
 }
 .third.content.media.one{
-    justify-content: start;
+    justify-self: start;
 }
