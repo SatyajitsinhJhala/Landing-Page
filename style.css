@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Dune;
+    src: url(fonts/Dune-Rise/Dune_Rise.ttf);
+}
+*{
+    font-family: Dune;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #743C08;
+}
+.header img{
+    width: 80px;
+    height: 80px;
+}
+
+.header a{
+    font-size: medium;
+    color: #DF760B;
+    padding-right: 8px;
+}
+.second{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: space-between;
+    background-color: #e96803;
+}
+.second img{
+    height: 551px;
+    width: auto;
+}
+.secondleft{
+    width: 500px;
+}
+.secondleft.text{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.secondleft button{
+    background-color: #743C08;
+    padding: 8px;
+    font-size: medium;
+}
