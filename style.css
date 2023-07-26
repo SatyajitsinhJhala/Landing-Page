@@ -11,9 +11,13 @@ body{
     display: flex;
     flex-direction: column;
 }
+.hdrlnks{
+    margin: 25px;
+}
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #743C08;
 }
 .header img{
@@ -23,16 +27,16 @@ body{
 
 .header a{
     font-size: medium;
-    /* color: #DF760B; */
+    font-weight: 400;
     padding-right: 8px;
 }
 .second{
     display: flex;
-    padding-top: 100px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding: 50px 250px;
     justify-content: space-between;
+    align-items: center;
     background-color: #e96803;
+
 }
 .second img{
     height: 551px;
@@ -55,13 +59,15 @@ body{
     border-radius: 15px;
     margin: 20px;
     width: 400px;
-    height: auto;
+    height: 225px;
 }
 .third{
+    
     display: flex;
     flex-direction: column;
     background-color: #F6B61E;
     align-items: center;
+    padding: 16px;
 }
 .third.header{
     font-size: larger;
@@ -70,16 +76,34 @@ body{
 .third.content{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items: flex-start;
     gap: 20px;
 }
 .third.content.media{
     display: flex;
     flex-direction: column;
-    
-    width: 400px;
+    width: 450px;
+    font-size: 15px;
+    font-weight: 800;
 }
-.third.content.media.one{
-    justify-self: start;
+.quote{
+    display: flex;
+    background-color: #FFEBAF;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+.int{
+    display: block;
+    width: 800px;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+.author{
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
 }
