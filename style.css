@@ -39,6 +39,7 @@ body{
 
 }
 .second img{
+    border-radius: 15px;
     height: 551px;
     width: auto;
 }
@@ -56,7 +57,7 @@ body{
     border-radius: 5px;
 }
 .third img{
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 20px;
     width: 400px;
     height: 225px;
@@ -107,3 +108,4 @@ body{
     justify-content: end;
     padding-top: 20px;
 }
+/* Reserve #FFEBAF; for the final part of the webpage  */
