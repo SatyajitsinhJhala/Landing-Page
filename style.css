@@ -14,6 +14,9 @@ body{
 .hdrlnks{
     margin: 25px;
 }
+.header h1{
+    color: #f5ede5;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -43,6 +46,9 @@ body{
     height: 551px;
     width: auto;
 }
+.second h1{
+    color: #f5ede5;
+}
 .secondleft{
     width: 500px;
 }
@@ -66,10 +72,11 @@ body{
     
     display: flex;
     flex-direction: column;
-    background-color: #F6B61E;
+    background-color: #f59a13;
     align-items: center;
     padding: 16px;
 }
+/* #F6B61E */
 .third.header{
     font-size: larger;
 
@@ -79,7 +86,7 @@ body{
     flex-direction: row;
     justify-content: center; 
     align-items: flex-start;
-    gap: 20px;
+    gap: 200px;
 }
 .third.content.media{
     display: flex;
@@ -87,10 +94,11 @@ body{
     width: 450px;
     font-size: 15px;
     font-weight: 800;
+    gap: 20px;
 }
 .quote{
     display: flex;
-    background-color: #FFEBAF;
+    background-color: #F6B61E;
     justify-content: center;
     align-items: center;
     padding: 50px;
@@ -101,6 +109,9 @@ body{
     width: 800px;
     font-size: x-large;
     font-weight: bold;
+    padding: 20px;
+    background-color: #f59a13;
+    border-radius: 20px;
     
 }
 .author{
@@ -109,3 +120,47 @@ body{
     padding-top: 20px;
 }
 /* Reserve #FFEBAF; for the final part of the webpage  */
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f59a13;
+    height: 300px;
+    padding: 70px;
+    
+}
+.fourth.left{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #FFD966;
+}
+.fourth.bubble{
+
+    display: flex;
+    padding: 20px;
+    border: 2px #743C08;
+    background-color: #FFD966;
+    border-radius: 20px;
+    max-width: 800px;
+    font-weight: bolder;
+}
+.fourth button{
+    background-color: #FFD966;
+    width: auto;
+    font-size: medium;
+    border-radius: 8px;
+    padding: 4px;
+}
+.copyright{
+    background-color: #743C08 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #f5ede5;
+}
+.f-one{
+    padding: 10px;
+    justify-content: flex-start;
+}
